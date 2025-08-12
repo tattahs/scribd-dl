@@ -96,5 +96,8 @@ npm start "https://www.everand.com/listen/podcast/731670963"
 ## License ##
 This project is licensed under the [MIT License](LICENSE.md)
 
-change scale on init for render quality so image mode doesn't make such huge files
-change output to your absolute path location of the folder you want the content to go, like output=C:Ebooks
+Change scale on config.ini for render quality so image mode doesn't make such huge files
+
+Change output to your absolute path location of the folder you want the content to go, like output=C:Ebooks
+
+Default mode gets stuck on 99% like the original, not sure why
