@@ -3,6 +3,10 @@
 <a href="https://buymeacoffee.com/r1y5i" target="_blank">
 <img style="border-radius: 20px" src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174">
 </a>
+/\ support the creator
+
+I don't have a buy me a coffee, but you could always sign my patreon for a month (https://www.patreon.com/c/Luperina)
+Thanks :)
 
 ## About ##
 Scribd-dl helps downloading:
@@ -104,6 +108,7 @@ get single page, intervals, change scale, change image mode to png or jpg, chang
 
 ## License ##
 This project is licensed under the [MIT License](LICENSE.md)
+
 
 
 
