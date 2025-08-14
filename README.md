@@ -89,13 +89,22 @@ npm start "https://www.everand.com/listen/podcast/731670963"
 - https://www.everand.com/podcast/**
 - https://www.everand.com/listen/podcast/**
 
-## Development Plan ##
+- Now supports pt.scribd
+- Added some controls and fixed some bugs like default stuck at 99% and blank pages at the end, or cookie banners on pages.
+- Notice that my changes were intended to use with another client overriding info, so might not be the best for single use.
 
-- Scribd obfuscates the .pdf files, the texts copied from the documents might become strange garbled message. De-obfuscating is one of the future plan.
+
+Examples of new controls
+npm start -- "https://www.scribd.com/document/something" /i --pages=2-5 --imgfmt=jpg
+npm start "https://www.scribd.com/document/something" /i --pages=1-3;7;10-12 --imgfmt=png --scale=2 --jpgq=90
+node run.js "https://www.scribd.com/document/something" /i --pages=1-3;7;10-12 --imgfmt=png --scale=2 --jpgq=90
+npm start -- "https://www.scribd.com/document/something" --pages=10-15 --output="D:\Ebooks" --filename=title
+
+get single page, intervals, change scale, change image mode to png or jpg, change jpg quality, change output, change filename 
 
 ## License ##
 This project is licensed under the [MIT License](LICENSE.md)
 
-Added some controls and fixed some bugs like default stuck at 99% and blank pages at the end, or cookie banners on pages.
-Notice that my changes were intended to use with another client overriding info, so might not be the best for single use.
+
+
 
