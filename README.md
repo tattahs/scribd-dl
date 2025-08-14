@@ -96,8 +96,6 @@ npm start "https://www.everand.com/listen/podcast/731670963"
 ## License ##
 This project is licensed under the [MIT License](LICENSE.md)
 
-Change scale on config.ini for render quality so image mode doesn't make such huge files
+Added some controls and fixed some bugs like default stuck at 99% and blank pages at the end, or cookie banners on pages.
+Notice that my changes were intended to use with another client overriding info, so might not be the best for single use.
 
-Change output to your absolute path location of the folder you want the content to go, like output=C:Ebooks
-
-Default mode gets stuck on 99% like the original, not sure why
